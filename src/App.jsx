@@ -1,11 +1,5 @@
 import { useState, useEffect, useRef } from "react";
 
-/* ─────────────────────────────────────────────────────────────────────────
-   SAKSHI NANDGUDE — PORTFOLIO  (single-file React SPA)
-   Aesthetic: Editorial dark-on-cream with ink-teal accent. Syne headlines,
-   DM Sans body. Scroll-triggered reveals, hover micro-interactions.
-───────────────────────────────────────────────────────────────────────── */
-
 const CSS = `
 @import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&family=DM+Mono:wght@300;400&display=swap');
 
@@ -416,7 +410,7 @@ const PROJECTS = [
   {icon:"📊",ibg:"#e8f5e9",title:"Loan Default Prediction",date:"Mar 2026 – Present",desc:"Big data group project processing large-scale financial datasets using PySpark. Training and comparing Logistic Regression, Random Forest, and Gradient Boosting classifiers via Spark MLlib, evaluated with AUC-ROC and F1-score metrics.",stack:["Python","PySpark","Spark MLlib","Apache Spark"],sbg:["#e8f5e9","#e8f5e9","#e8eaf6","#e8eaf6"],link:"https://github.com/sakshinandgude6-web"},
   {icon:"🛒",ibg:"#fff3e0",title:"E-Commerce Backend System",date:"Feb – Mar 2026",desc:"Production-grade RESTful backend in Java and Spring Boot with layered architecture. JWT authentication, RBAC, normalised PostgreSQL schema covering users, orders, and transactions. Deployed on AWS EC2 with RDS integration.",stack:["Java","Spring Boot","PostgreSQL","JWT","AWS EC2"],sbg:["#fff3e0","#fff3e0","#e3f2fd","#e8f5e9","#e8eaf6"],link:"https://github.com/sakshinandgude6-web"},
   {icon:"🔗",ibg:"#e3f2fd",title:"URL Shortener Web App",date:"Dec 2025 – Jan 2026",desc:"Full-stack application with React frontend, Node.js/Express backend, and MongoDB. Secure JWT auth, middleware route protection, end-to-end automated testing, and CI/CD deployment to Render and Vercel.",stack:["React","Node.js","Express","MongoDB","CI/CD"],sbg:["#e3f2fd","#e8f5e9","#e8f5e9","#fce4ec","#e8eaf6"],link:"https://github.com/sakshinandgude6-web"},
-  {icon:"🖼️",ibg:"#f3e5f5",title:"Image Processing Application",date:"Feb 2026",desc:"Full-stack image pipeline — Angular frontend, Node.js/Express backend, AWS S3 storage. Hash-based caching with Node.js crypto, Multer/Sharp image transformations, and comprehensive Jest/Supertest test suite.",stack:["Angular","Node.js","AWS S3","Sharp","Jest"],sbg:["#e3f2fd","#e8f5e9","#e8eaf6","#f3e5f5","#e8f5e9"],link:"https://github.com/sakshinandgude6-web"},
+  {icon:"🖼️",ibg:"#f3e5f5",title:"Image Processing Application",date:"Feb 2026",desc:"Full-stack image pipeline — React frontend, Node.js/Express backend, AWS S3 storage. Hash-based caching with Node.js crypto, Multer/Sharp image transformations, and comprehensive Jest/Supertest test suite.",stack:["Angular","Node.js","AWS S3","Sharp","Jest"],sbg:["#e3f2fd","#e8f5e9","#e8eaf6","#f3e5f5","#e8f5e9"],link:"https://github.com/sakshinandgude6-web"},
   {icon:"🏨",ibg:"#fff8e1",title:"Hotel Booking Analysis",date:"MSc Project – 2025",desc:"End-to-end EDA on real-world hotel booking dataset. Cleaned and analysed booking patterns, cancellation rates, and seasonal revenue trends using Python and Pandas with structured business insight reporting.",stack:["Python","Pandas","Matplotlib","Business Analytics"],sbg:["#fff3e0","#e8f5e9","#e3f2fd","#fce4ec"],link:"https://github.com/sakshinandgude6-web"},
   {icon:"👤",ibg:"#e8eaf6",title:"Personal Portfolio Website",date:"Sep 2025",desc:"Responsive developer portfolio in React with modular component architecture, smooth scrolling navigation, performance-optimised asset loading, and mobile-first responsive layout.",stack:["React","HTML5","CSS3","Vercel"],sbg:["#e3f2fd","#fff3e0","#fce4ec","#e8eaf6"],link:"https://my-portfolio-ohs7.onrender.com"},
 ];
