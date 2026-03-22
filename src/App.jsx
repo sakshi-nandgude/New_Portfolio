@@ -407,12 +407,12 @@ const EXPS = [
 ];
 
 const PROJECTS = [
-  {icon:"📊",ibg:"#e8f5e9",title:"Loan Default Prediction",date:"Mar 2026 – Present",desc:"Big data group project processing large-scale financial datasets using PySpark. Training and comparing Logistic Regression, Random Forest, and Gradient Boosting classifiers via Spark MLlib, evaluated with AUC-ROC and F1-score metrics.",stack:["Python","PySpark","Spark MLlib","Apache Spark"],sbg:["#e8f5e9","#e8f5e9","#e8eaf6","#e8eaf6"],link:"https://github.com/sakshinandgude6-web"},
-  {icon:"🛒",ibg:"#fff3e0",title:"E-Commerce Backend System",date:"Feb – Mar 2026",desc:"Production-grade RESTful backend in Java and Spring Boot with layered architecture. JWT authentication, RBAC, normalised PostgreSQL schema covering users, orders, and transactions. Deployed on AWS EC2 with RDS integration.",stack:["Java","Spring Boot","PostgreSQL","JWT","AWS EC2"],sbg:["#fff3e0","#fff3e0","#e3f2fd","#e8f5e9","#e8eaf6"],link:"https://github.com/sakshinandgude6-web"},
-  {icon:"🔗",ibg:"#e3f2fd",title:"URL Shortener Web App",date:"Dec 2025 – Jan 2026",desc:"Full-stack application with React frontend, Node.js/Express backend, and MongoDB. Secure JWT auth, middleware route protection, end-to-end automated testing, and CI/CD deployment to Render and Vercel.",stack:["React","Node.js","Express","MongoDB","CI/CD"],sbg:["#e3f2fd","#e8f5e9","#e8f5e9","#fce4ec","#e8eaf6"],link:"https://github.com/sakshinandgude6-web"},
-  {icon:"🖼️",ibg:"#f3e5f5",title:"Image Processing Application",date:"Feb 2026",desc:"Full-stack image pipeline — React frontend, Node.js/Express backend, AWS S3 storage. Hash-based caching with Node.js crypto, Multer/Sharp image transformations, and comprehensive Jest/Supertest test suite.",stack:["React","Node.js","AWS S3","Sharp","Jest"],sbg:["#e3f2fd","#e8f5e9","#e8eaf6","#f3e5f5","#e8f5e9"],link:"https://github.com/sakshinandgude6-web"},
-  {icon:"🏨",ibg:"#fff8e1",title:"Hotel Booking Analysis",date:"MSc Project – 2025",desc:"End-to-end EDA on real-world hotel booking dataset. Cleaned and analysed booking patterns, cancellation rates, and seasonal revenue trends using Python and Pandas with structured business insight reporting.",stack:["Python","Pandas","Matplotlib","Business Analytics"],sbg:["#fff3e0","#e8f5e9","#e3f2fd","#fce4ec"],link:"https://github.com/sakshinandgude6-web"},
-  {icon:"👤",ibg:"#e8eaf6",title:"Personal Portfolio Website",date:"Sep 2025",desc:"Responsive developer portfolio in React with modular component architecture, smooth scrolling navigation, performance-optimised asset loading, and mobile-first responsive layout.",stack:["React","HTML5","CSS3","Vercel"],sbg:["#e3f2fd","#fff3e0","#fce4ec","#e8eaf6"],link:"https://my-portfolio-ohs7.onrender.com"},
+  {icon:"📊",ibg:"#e8f5e9",title:"Loan Default Prediction",date:"Mar 2026 – Present",desc:"Big data group project processing large-scale financial datasets using PySpark. Training and comparing Logistic Regression, Random Forest, and Gradient Boosting classifiers via Spark MLlib, evaluated with AUC-ROC and F1-score metrics.",stack:["Python","PySpark","Spark MLlib","Apache Spark"],sbg:["#e8f5e9","#e8f5e9","#e8eaf6","#e8eaf6"],link:"https://github.com/sakshi-nandgude"},
+  {icon:"🛒",ibg:"#fff3e0",title:"E-Commerce Backend System",date:"Feb – Mar 2026",desc:"Production-grade RESTful backend in Java and Spring Boot with layered architecture. JWT authentication, RBAC, normalised PostgreSQL schema covering users, orders, and transactions. Deployed on AWS EC2 with RDS integration.",stack:["Java","Spring Boot","PostgreSQL","JWT","AWS EC2"],sbg:["#fff3e0","#fff3e0","#e3f2fd","#e8f5e9","#e8eaf6"],link:"https://github.com/sakshi-nandgude"},
+  {icon:"🔗",ibg:"#e3f2fd",title:"URL Shortener Web App",date:"Dec 2025 – Jan 2026",desc:"Full-stack application with React frontend, Node.js/Express backend, and MongoDB. Secure JWT auth, middleware route protection, end-to-end automated testing, and CI/CD deployment to Render and Vercel.",stack:["React","Node.js","Express","MongoDB","CI/CD"],sbg:["#e3f2fd","#e8f5e9","#e8f5e9","#fce4ec","#e8eaf6"],link:"https://github.com/sakshi-nandgude"},
+  {icon:"🖼️",ibg:"#f3e5f5",title:"Image Processing Application",date:"Feb 2026",desc:"Full-stack image pipeline — React frontend, Node.js/Express backend, AWS S3 storage. Hash-based caching with Node.js crypto, Multer/Sharp image transformations, and comprehensive Jest/Supertest test suite.",stack:["React","Node.js","AWS S3","Sharp","Jest"],sbg:["#e3f2fd","#e8f5e9","#e8eaf6","#f3e5f5","#e8f5e9"],link:"https://github.com/sakshi-nandgude"},
+  {icon:"🏨",ibg:"#fff8e1",title:"Hotel Booking Analysis",date:"MSc Project – 2025",desc:"End-to-end EDA on real-world hotel booking dataset. Cleaned and analysed booking patterns, cancellation rates, and seasonal revenue trends using Python and Pandas with structured business insight reporting.",stack:["Python","Pandas","Matplotlib","Business Analytics"],sbg:["#fff3e0","#e8f5e9","#e3f2fd","#fce4ec"],link:"https://github.com/sakshi-nandgude"},
+  {icon:"👤",ibg:"#e8eaf6",title:"Personal Portfolio Website",date:"Sep 2025",desc:"Responsive developer portfolio in React with modular component architecture, smooth scrolling navigation, performance-optimised asset loading, and mobile-first responsive layout.",stack:["React","HTML5","CSS3","Vercel"],sbg:["#e3f2fd","#fff3e0","#fce4ec","#e8eaf6"],link:"https://new-portfolio-teal-pi.vercel.app/"},
 ];
 
 const EDUCATION = [
@@ -497,7 +497,7 @@ function Hero() {
           <div className="hero-btns">
             <a className="btn-p" href="#projects">View Projects</a>
             <a className="btn-o" href="#contact">Get In Touch</a>
-            <a className="btn-o" href="https://github.com/sakshinandgude6-web" target="_blank" rel="noreferrer">GitHub ↗</a>
+            <a className="btn-o" href="https://github.com/sakshi-nandgude" target="_blank" rel="noreferrer">GitHub ↗</a>
           </div>
           <div className="hero-stats">
             {[["9.32","CGPA / 10"],["6+","Projects Built"],["15+","Certifications"],["500+","Students Placed"]].map(([n,l]) => (
@@ -722,7 +722,7 @@ function Contact() {
     {icon:"✉️",label:"Email",val:"sakshinandgude6@gmail.com",href:"mailto:sakshinandgude6@gmail.com"},
     {icon:"📞",label:"Phone",val:"+353 858 083 112",href:"tel:+353858083112"},
     {icon:"💼",label:"LinkedIn",val:"linkedin.com/in/sakshi-nandgude-2457a4302",href:"https://www.linkedin.com/in/sakshi-nandgude-2457a4302/"},
-    {icon:"💻",label:"GitHub",val:"github.com/sakshinandgude6-web",href:"https://github.com/sakshinandgude6-web"},
+    {icon:"💻",label:"GitHub",val:"https://github.com/sakshi-nandgude",href:"https://github.com/sakshi-nandgude"},
     {icon:"📍",label:"Location",val:"Limerick, Ireland",href:"#"},
   ];
   return (
@@ -787,7 +787,7 @@ export default function App() {
       <footer>
         <p>© 2026 Sakshi Vijay Nandgude · Built with React</p>
         <div className="footer-links">
-          <a href="https://github.com/sakshinandgude6-web" target="_blank" rel="noreferrer">GitHub</a>
+          <a href="https://github.com/sakshi-nandgude" target="_blank" rel="noreferrer">GitHub</a>
           <a href="https://www.linkedin.com/in/sakshi-nandgude-2457a4302/" target="_blank" rel="noreferrer">LinkedIn</a>
           <a href="mailto:sakshinandgude6@gmail.com">Email</a>
         </div>
