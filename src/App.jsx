@@ -482,12 +482,12 @@ function Hero() {
         <div>
           <div className="hero-eyebrow">
             <span className="hero-dot"/>
-            Available for Sept 2026 roles · Limerick, Ireland
+            Available for 2026 roles · Limerick, Ireland
           </div>
           <h1 className="hero-name">Sakshi<br/><span>Nandgude</span></h1>
           <p className="hero-role">
-            <strong>Software Engineer</strong> focused on scalable systems, RESTful APIs &amp; modern full-stack development.<br/>
-            MSc Business Analytics · BCA 9.32 CGPA · AWS Certified · LangChain · PySpark
+            <strong>Software Engineer</strong> focused on scalable systems, RESTful APIs &amp; modern full-stack development and analytics.<br/>
+            MSc Business Analytics · BCA 9.32 CGPA · AWS Certified · Java · Python
           </p>
           <div className="hero-tags">
             {["Java","Spring Boot","Node.js","React","PostgreSQL","AWS","LangChain","PySpark","Python","Docker"].map(t => (
@@ -521,7 +521,7 @@ function About() {
           <div>
             <div className="about-card">
               <h4>Quick Info</h4>
-              {[["Location","Limerick, Ireland"],["MSc","Business Analytics, UL 2026"],["Undergrad CGPA","9.32 / 10 (BCA)"],["Current Role","AFL Analyst · Statsperform"],["Email","sakshinandgude6@gmail.com"],["Status","Open to Sept 2026 roles"]].map(([k,v])=>(
+              {[["Location","Limerick, Ireland"],["MSc","Business Analytics, UL 2026"],["Undergrad CGPA","9.32 / 10 (BCA)"],["Current Role","AFL Analyst · Statsperform"],["Email","sakshinandgude6@gmail.com"],["Status","Open to 2026 roles"]].map(([k,v])=>(
                 <div className="info-row" key={k}><span>{k}</span><span>{v}</span></div>
               ))}
             </div>
@@ -785,7 +785,7 @@ export default function App() {
         <Contact/>
       </main>
       <footer>
-        <p>© 2026 Sakshi Vijay Nandgude · Built with React</p>
+        <p>© 2026 Sakshi Vijay Nandgude</p>
         <div className="footer-links">
           <a href="https://github.com/sakshi-nandgude" target="_blank" rel="noreferrer">GitHub</a>
           <a href="https://www.linkedin.com/in/sakshi-nandgude-2457a4302/" target="_blank" rel="noreferrer">LinkedIn</a>
