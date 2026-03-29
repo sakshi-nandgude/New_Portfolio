@@ -533,8 +533,8 @@ function About() {
           </div>
           <div className="about-text">
             <p>I'm a Computer Science graduate and software engineer focused on building <strong>scalable, secure, and production-ready systems</strong>. I enjoy designing clean architectures, developing RESTful APIs, and implementing authentication and authorisation flows that are reliable and maintainable.</p>
-            <p>My experience spans <strong>Java, Spring Boot, Node.js, React</strong>, and cloud deployment on AWS. I've built and deployed backend services with layered architecture, PostgreSQL schema design, JWT-based security, and performance-focused optimisations such as caching and structured data modelling.</p>
-            <p>I'm currently working as an <strong>AFL Analyst at Statsperform</strong> and completing my <strong>MSc in Business Analytics at the University of Limerick</strong>, where my big data project uses Apache Spark and PySpark for loan default prediction at scale.</p>
+            <p>My experience spans <strong>Java, Spring Boot, Node.js, React</strong>, and cloud deployment on AWS. I've built and deployed backend services with layered architecture, PostgreSQL schema design, JWT-based security, and performance-focused optimisations such as caching and structured data modelling. I also have experience in business and data analytics through multiple projects and work.</p>
+            <p>I'm currently working as an <strong>AFL Analyst at Statsperform</strong> and completing my <strong>MSc in Business Analytics at the University of Limerick</strong>, where I have worked on multiple data analytics and machine learning projects..</p>
             <p>Beyond writing code, I value clarity in technical decisions, clean separation of concerns, and thoughtful problem-solving — building systems that are <strong>maintainable, secure, and aligned with real-world requirements</strong>.</p>
           </div>
         </div>
