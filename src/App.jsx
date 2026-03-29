@@ -482,7 +482,7 @@ function Hero() {
         <div>
           <div className="hero-eyebrow">
             <span className="hero-dot"/>
-            Available for 2026 roles · Limerick, Ireland
+            Available for 2026 roles · Ireland
           </div>
           <h1 className="hero-name">Sakshi<br/><span>Nandgude</span></h1>
           <p className="hero-role">
